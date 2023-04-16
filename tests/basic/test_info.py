@@ -2,7 +2,7 @@
 """ gitStudy.basic.test_info
 
 """
-from basic import *
+from basic import info
 
 
 class TestInfo(object):
