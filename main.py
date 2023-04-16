@@ -2,5 +2,9 @@
 """ gitStudy.main
 
 """
+import sys
+import platform
 if __name__ == '__main__':
-    print("Hello, Python!")
+    print(f"Python {sys.version}")
+    print(f"{platform.node()}: {platform.system()}, {platform.architecture()}")
+
