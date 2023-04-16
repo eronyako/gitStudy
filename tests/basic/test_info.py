@@ -2,11 +2,10 @@
 """ gitStudy.basic.test_info
 
 """
-import unittest
-from basic import info
+from basic import *
 
 
-class TestInfo(unittest.TestCase):
+class TestInfo(object):
     def test_getinfo(self):
         ret = info.getinfo()
-        self.assertEqual(len(ret), 5)
+        assert len(ret) == 5
